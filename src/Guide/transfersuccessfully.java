@@ -92,7 +92,7 @@ public class transfersuccessfully extends javax.swing.JDialog {
 
         jLabel2.setFont(new java.awt.Font("Calibri", 0, 30)); // NOI18N
         jLabel2.setText("You have successfully transfered your money! Here is the transaction details:");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
 
         lbbalance.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
         lbbalance.setText("Account Balance: ");
@@ -110,7 +110,7 @@ public class transfersuccessfully extends javax.swing.JDialog {
         lbaccountID.setText("jLabel1");
         getContentPane().add(lbaccountID, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 310, -1, -1));
 
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgpanel.png"))); // NOI18N
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
         getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();

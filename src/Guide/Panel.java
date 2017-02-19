@@ -86,10 +86,11 @@ public class Panel extends javax.swing.JFrame implements Runnable {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lbtransaction.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        lbtransaction.setForeground(new java.awt.Color(155, 60, 226));
         lbtransaction.setText("Select your transaction.");
-        getContentPane().add(lbtransaction, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 140, 440, 50));
+        getContentPane().add(lbtransaction, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, 440, 50));
 
-        butwith.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/withdrawal.png"))); // NOI18N
+        butwith.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/WITHDRAW.jpg"))); // NOI18N
         butwith.setBorderPainted(false);
         butwith.setContentAreaFilled(false);
         butwith.setDefaultCapable(false);
@@ -102,21 +103,16 @@ public class Panel extends javax.swing.JFrame implements Runnable {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 butwithMouseClicked(evt);
             }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                butwithMouseEntered(evt);
-            }
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 butwithMouseExited(evt);
             }
-        });
-        butwith.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                butwithActionPerformed(evt);
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                butwithMouseEntered(evt);
             }
         });
-        getContentPane().add(butwith, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 280, 80));
+        getContentPane().add(butwith, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 310, 280, 80));
 
-        butbalance.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/balance.png"))); // NOI18N
+        butbalance.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/BALANCE.jpg"))); // NOI18N
         butbalance.setBorderPainted(false);
         butbalance.setContentAreaFilled(false);
         butbalance.setDefaultCapable(false);
@@ -141,9 +137,9 @@ public class Panel extends javax.swing.JFrame implements Runnable {
                 butbalanceActionPerformed(evt);
             }
         });
-        getContentPane().add(butbalance, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 480, 280, 80));
+        getContentPane().add(butbalance, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 610, 280, 80));
 
-        butpin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pinchange.png"))); // NOI18N
+        butpin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/CHANGEPIN.jpg"))); // NOI18N
         butpin.setBorderPainted(false);
         butpin.setContentAreaFilled(false);
         butpin.setDefaultCapable(false);
@@ -163,7 +159,7 @@ public class Panel extends javax.swing.JFrame implements Runnable {
                 butpinMouseEntered(evt);
             }
         });
-        getContentPane().add(butpin, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 230, 280, 80));
+        getContentPane().add(butpin, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 460, 280, 80));
 
         butlogout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/logout.png"))); // NOI18N
         butlogout.setBorderPainted(false);
@@ -187,7 +183,7 @@ public class Panel extends javax.swing.JFrame implements Runnable {
         });
         getContentPane().add(butlogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 600, 280, 80));
 
-        buttrans.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/transfers.png"))); // NOI18N
+        buttrans.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/TRANSFER.jpg"))); // NOI18N
         buttrans.setBorderPainted(false);
         buttrans.setContentAreaFilled(false);
         buttrans.setDefaultCapable(false);
@@ -207,7 +203,7 @@ public class Panel extends javax.swing.JFrame implements Runnable {
                 buttransMouseClicked(evt);
             }
         });
-        getContentPane().add(buttrans, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 280, 80));
+        getContentPane().add(buttrans, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, 280, 80));
 
         butclose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/close1.png"))); // NOI18N
         butclose.setBorderPainted(false);
@@ -257,7 +253,7 @@ public class Panel extends javax.swing.JFrame implements Runnable {
         });
         getContentPane().add(butminimax, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 25, 17, 10));
 
-        instructionbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/instruct.png"))); // NOI18N
+        instructionbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/INSTRUCTION.jpg"))); // NOI18N
         instructionbn.setBorderPainted(false);
         instructionbn.setContentAreaFilled(false);
         instructionbn.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -272,9 +268,9 @@ public class Panel extends javax.swing.JFrame implements Runnable {
                 instructionbnMouseClicked(evt);
             }
         });
-        getContentPane().add(instructionbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 360, 280, 80));
+        getContentPane().add(instructionbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 600, 280, 80));
 
-        activitiesbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/recent.png"))); // NOI18N
+        activitiesbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/HISTORY.jpg"))); // NOI18N
         activitiesbn.setBorderPainted(false);
         activitiesbn.setContentAreaFilled(false);
         activitiesbn.setDefaultCapable(false);
@@ -293,10 +289,10 @@ public class Panel extends javax.swing.JFrame implements Runnable {
                 activitiesbnActionPerformed(evt);
             }
         });
-        getContentPane().add(activitiesbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 480, 280, 80));
+        getContentPane().add(activitiesbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 310, 280, 80));
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgpanel.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1024, 734));
 
         pack();
@@ -465,11 +461,6 @@ public class Panel extends javax.swing.JFrame implements Runnable {
         }
 
     }//GEN-LAST:event_instructionbnMouseClicked
-
-    private void butwithActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_butwithActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_butwithActionPerformed
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton activitiesbn;
     private javax.swing.JButton butbalance;

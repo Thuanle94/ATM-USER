@@ -51,8 +51,8 @@ public class ShowBalance extends javax.swing.JDialog {
     private void initComponents() {
 
         lbbalance = new javax.swing.JLabel();
-        lbgreeting = new javax.swing.JLabel();
         butcancel = new javax.swing.JButton();
+        lbgreeting = new javax.swing.JLabel();
         bg = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -62,11 +62,7 @@ public class ShowBalance extends javax.swing.JDialog {
         lbbalance.setText("YOUR BALANCE IS:");
         getContentPane().add(lbbalance, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 330, -1, -1));
 
-        lbgreeting.setFont(new java.awt.Font("Calibri", 0, 48)); // NOI18N
-        lbgreeting.setText("GREETINGS!");
-        getContentPane().add(lbgreeting, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 220, -1, -1));
-
-        butcancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cancel.png"))); // NOI18N
+        butcancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/CANCEL.jpg"))); // NOI18N
         butcancel.setBorderPainted(false);
         butcancel.setContentAreaFilled(false);
         butcancel.setDefaultCapable(false);
@@ -79,18 +75,22 @@ public class ShowBalance extends javax.swing.JDialog {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 butcancelMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                butcancelMouseExited(evt);
-            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 butcancelMouseEntered(evt);
             }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                butcancelMouseExited(evt);
+            }
         });
-        getContentPane().add(butcancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 500, 280, 80));
+        getContentPane().add(butcancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 500, 280, 80));
+
+        lbgreeting.setFont(new java.awt.Font("Calibri", 0, 48)); // NOI18N
+        lbgreeting.setText("GREETINGS!");
+        getContentPane().add(lbgreeting, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 220, -1, -1));
 
         bg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgpanel.png"))); // NOI18N
-        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1024, 734));
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
+        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 670));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -42,7 +42,8 @@ public class RECENTactivities extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        withdrewbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/withdrawal.png"))); // NOI18N
+        withdrewbn.setForeground(new java.awt.Color(155, 60, 226));
+        withdrewbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/WITHDRAW.jpg"))); // NOI18N
         withdrewbn.setBorderPainted(false);
         withdrewbn.setContentAreaFilled(false);
         withdrewbn.setDefaultCapable(false);
@@ -56,9 +57,14 @@ public class RECENTactivities extends javax.swing.JDialog {
                 withdrewbnMouseClicked(evt);
             }
         });
-        getContentPane().add(withdrewbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 280, 80));
+        withdrewbn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                withdrewbnActionPerformed(evt);
+            }
+        });
+        getContentPane().add(withdrewbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 290, 280, 80));
 
-        transferedbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/transfers.png"))); // NOI18N
+        transferedbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/TRANSFER.jpg"))); // NOI18N
         transferedbn.setBorderPainted(false);
         transferedbn.setContentAreaFilled(false);
         transferedbn.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -73,14 +79,15 @@ public class RECENTactivities extends javax.swing.JDialog {
                 transferedbnMouseClicked(evt);
             }
         });
-        getContentPane().add(transferedbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, 280, 80));
+        getContentPane().add(transferedbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 430, 280, 80));
 
-        jLabel2.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Calibri", 1, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(155, 60, 226));
         jLabel2.setText("Please select your transaction history!");
         jLabel2.setToolTipText("");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, 460, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 170, 790, -1));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/deposit.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/DEPOSIT.jpg"))); // NOI18N
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
         jButton1.setFocusPainted(false);
@@ -93,7 +100,7 @@ public class RECENTactivities extends javax.swing.JDialog {
                 jButton1MouseClicked(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 500, 280, 80));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 570, 280, 80));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cancel.png"))); // NOI18N
         jButton2.setBorderPainted(false);
@@ -142,6 +149,11 @@ public class RECENTactivities extends javax.swing.JDialog {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         this.dispose();        // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void withdrewbnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_withdrewbnActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_withdrewbnActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;

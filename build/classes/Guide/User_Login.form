@@ -6,6 +6,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -37,7 +38,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="430" y="260" width="250" height="50"/>
+          <AbsoluteConstraints x="370" y="260" width="260" height="50"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -128,7 +129,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="320" y="270" width="100" height="30"/>
+          <AbsoluteConstraints x="220" y="270" width="100" height="30"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -166,7 +167,7 @@
     <Component class="javax.swing.JButton" name="butback">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/back.png"/>
+          <Image iconType="3" name="/images/BACK1.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -187,14 +188,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="570" width="280" height="80"/>
+          <AbsoluteConstraints x="690" y="360" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/1.png"/>
+          <Image iconType="3" name="/images/number 1.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -212,14 +213,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="360" width="80" height="80"/>
+          <AbsoluteConstraints x="370" y="360" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/2.png"/>
+          <Image iconType="3" name="/images/number 2.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -237,14 +238,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="360" width="80" height="80"/>
+          <AbsoluteConstraints x="460" y="360" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/3.png"/>
+          <Image iconType="3" name="/images/number 3.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -262,14 +263,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="670" y="360" width="80" height="80"/>
+          <AbsoluteConstraints x="550" y="360" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/4.png"/>
+          <Image iconType="3" name="/images/number 4.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -287,14 +288,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="450" width="80" height="80"/>
+          <AbsoluteConstraints x="370" y="450" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/5.png"/>
+          <Image iconType="3" name="/images/number 5.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -312,14 +313,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="450" width="80" height="80"/>
+          <AbsoluteConstraints x="460" y="450" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/6.png"/>
+          <Image iconType="3" name="/images/number 6.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -337,14 +338,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="670" y="450" width="80" height="80"/>
+          <AbsoluteConstraints x="550" y="450" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/7.png"/>
+          <Image iconType="3" name="/images/number 7.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -362,14 +363,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="540" width="80" height="80"/>
+          <AbsoluteConstraints x="370" y="540" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but8">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/8.png"/>
+          <Image iconType="3" name="/images/number 8.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -387,14 +388,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="540" width="80" height="80"/>
+          <AbsoluteConstraints x="460" y="540" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but9">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/9.png"/>
+          <Image iconType="3" name="/images/number 9.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -412,14 +413,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="670" y="540" width="80" height="80"/>
+          <AbsoluteConstraints x="550" y="540" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="butclear">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/backspace.png"/>
+          <Image iconType="3" name="/images/CLEAR1.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -437,14 +438,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="630" width="170" height="80"/>
+          <AbsoluteConstraints x="690" y="450" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="but0">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/0.png"/>
+          <Image iconType="3" name="/images/number 0.jpg"/>
         </Property>
         <Property name="borderPainted" type="boolean" value="false"/>
         <Property name="contentAreaFilled" type="boolean" value="false"/>
@@ -462,14 +463,14 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="630" width="80" height="80"/>
+          <AbsoluteConstraints x="460" y="630" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="butenter">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/enter.png"/>
+          <Image iconType="3" name="/images/ENTER1.jpg"/>
         </Property>
         <Property name="toolTipText" type="java.lang.String" value=""/>
         <Property name="borderPainted" type="boolean" value="false"/>
@@ -491,7 +492,7 @@
       </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="720" y="240" width="280" height="80"/>
+          <AbsoluteConstraints x="690" y="540" width="80" height="80"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -499,12 +500,12 @@
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/background.png"/>
+          <Image iconType="3" name="/images/background1.jpg"/>
         </Property>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="1020" height="-1"/>
+          <AbsoluteConstraints x="0" y="10" width="1020" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>

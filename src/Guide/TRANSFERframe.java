@@ -25,7 +25,7 @@ import javax.swing.Timer;
 public class TRANSFERframe extends javax.swing.JDialog {
 
     static String accountID;
-    boolean check_account = false;
+    int checkingnumber = 0;
 
     public TRANSFERframe(java.awt.Frame parent, boolean modal, String stringkey) {
         super(parent, modal);
@@ -137,7 +137,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel2.setText("Please input the beneficiary account No.");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 333, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 190, 460, -1));
 
         txtmoneytrans.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txtmoneytrans.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -191,8 +191,9 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(butcancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 630, 280, 80));
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel4.setText("NOTE:");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 520, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 520, -1, -1));
 
         txtaccount1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txtaccount1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -208,14 +209,14 @@ public class TRANSFERframe extends javax.swing.JDialog {
                 txtaccount1KeyTyped(evt);
             }
         });
-        getContentPane().add(txtaccount1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 210, 300, -1));
+        getContentPane().add(txtaccount1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 300, -1));
 
         lbinputmoney.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lbinputmoney.setText("Please input the amount of money you want to transfer");
         getContentPane().add(lbinputmoney, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 380, -1, 20));
 
         transferbn.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        transferbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/transfers.png"))); // NOI18N
+        transferbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/TRANSFER.jpg"))); // NOI18N
         transferbn.setBorderPainted(false);
         transferbn.setContentAreaFilled(false);
         transferbn.setDefaultCapable(false);
@@ -237,20 +238,20 @@ public class TRANSFERframe extends javax.swing.JDialog {
                 transferbnActionPerformed(evt);
             }
         });
-        getContentPane().add(transferbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 620, 280, 80));
+        getContentPane().add(transferbn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 630, 280, 80));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel3.setText("Please re-input the following account No.");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 270, 337, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 280, 450, -1));
         getContentPane().add(lbcheckaccount, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, -1, -1));
 
         txtnote.setColumns(20);
         txtnote.setRows(5);
         jScrollPane1.setViewportView(txtnote);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 480, 300, -1));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 500, 300, -1));
 
-        but1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/1.png"))); // NOI18N
+        but1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 1.jpg"))); // NOI18N
         but1.setBorderPainted(false);
         but1.setContentAreaFilled(false);
         but1.setDefaultCapable(false);
@@ -274,7 +275,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 200, 80, 80));
 
-        but2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/2.png"))); // NOI18N
+        but2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 2-2.jpg"))); // NOI18N
         but2.setBorderPainted(false);
         but2.setContentAreaFilled(false);
         but2.setDefaultCapable(false);
@@ -284,11 +285,11 @@ public class TRANSFERframe extends javax.swing.JDialog {
         but2.setRolloverEnabled(false);
         but2.setVerifyInputWhenFocusTarget(false);
         but2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                but2MouseExited(evt);
-            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 but2MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                but2MouseExited(evt);
             }
         });
         but2.addActionListener(new java.awt.event.ActionListener() {
@@ -298,7 +299,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 200, 80, 80));
 
-        but3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/3.png"))); // NOI18N
+        but3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 3.jpg"))); // NOI18N
         but3.setBorderPainted(false);
         but3.setContentAreaFilled(false);
         but3.setDefaultCapable(false);
@@ -322,7 +323,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but3, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 200, 80, 80));
 
-        but6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/6.png"))); // NOI18N
+        but6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 6.jpg"))); // NOI18N
         but6.setBorderPainted(false);
         but6.setContentAreaFilled(false);
         but6.setDefaultCapable(false);
@@ -346,7 +347,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but6, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 290, 80, 80));
 
-        but5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/5.png"))); // NOI18N
+        but5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 5.jpg"))); // NOI18N
         but5.setBorderPainted(false);
         but5.setContentAreaFilled(false);
         but5.setDefaultCapable(false);
@@ -370,7 +371,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but5, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 290, 80, 80));
 
-        but4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/4.png"))); // NOI18N
+        but4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 4.jpg"))); // NOI18N
         but4.setBorderPainted(false);
         but4.setContentAreaFilled(false);
         but4.setDefaultCapable(false);
@@ -394,7 +395,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 290, 80, 80));
 
-        but7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/7.png"))); // NOI18N
+        but7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 7.jpg"))); // NOI18N
         but7.setBorderPainted(false);
         but7.setContentAreaFilled(false);
         but7.setDefaultCapable(false);
@@ -418,7 +419,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but7, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 380, 80, 80));
 
-        but8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/8.png"))); // NOI18N
+        but8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 8.jpg"))); // NOI18N
         but8.setBorderPainted(false);
         but8.setContentAreaFilled(false);
         but8.setDefaultCapable(false);
@@ -442,7 +443,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but8, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 380, 80, 80));
 
-        but9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/9.png"))); // NOI18N
+        but9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 9.jpg"))); // NOI18N
         but9.setBorderPainted(false);
         but9.setContentAreaFilled(false);
         but9.setDefaultCapable(false);
@@ -466,7 +467,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but9, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 380, 80, 80));
 
-        but0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/0.png"))); // NOI18N
+        but0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 0.jpg"))); // NOI18N
         but0.setToolTipText("");
         but0.setBorderPainted(false);
         but0.setContentAreaFilled(false);
@@ -491,7 +492,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
         });
         getContentPane().add(but0, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 470, 80, 80));
 
-        backspace.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/backspace.png"))); // NOI18N
+        backspace.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/backspace2.jpg"))); // NOI18N
         backspace.setBorderPainted(false);
         backspace.setContentAreaFilled(false);
         backspace.setDefaultCapable(false);
@@ -513,7 +514,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
                 backspaceActionPerformed(evt);
             }
         });
-        getContentPane().add(backspace, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 470, 170, 80));
+        getContentPane().add(backspace, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 470, 170, 80));
 
         re1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/1.png"))); // NOI18N
         re1.setBorderPainted(false);
@@ -1046,13 +1047,13 @@ public class TRANSFERframe extends javax.swing.JDialog {
         getContentPane().add(backspaceam, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 470, 170, 80));
 
         bg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgpanel.png"))); // NOI18N
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
         bg.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 bgKeyPressed(evt);
             }
         });
-        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1024, 734));
+        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1024, 734));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -1076,10 +1077,11 @@ public class TRANSFERframe extends javax.swing.JDialog {
                 CallableStatement cat = Connect.connectDatabase().prepareCall("{call Show_Account}");
                 ResultSet rst = cat.executeQuery();
                 while (rst.next()) {
-                    if (stringkey.equals(rst.getString("AccountID"))) {
+                    if (stringkey.equals(rst.getString("AccountBalance"))) {
                         checkinputaccount();
-                        check_account = true;
-                        break;
+                        
+                    } else {
+                      checkingnumber++;
                     }
                 }
                 
@@ -1087,7 +1089,7 @@ public class TRANSFERframe extends javax.swing.JDialog {
                 e.printStackTrace();
             }
 
-        }if (check_account == false) {
+        }if (checkingnumber>0) {
                     JOptionPane.showMessageDialog(this, "The Beneficiary account you input does not exist");
                 }
     }//GEN-LAST:event_transferbnActionPerformed

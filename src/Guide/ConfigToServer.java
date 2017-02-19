@@ -124,27 +124,29 @@ public class ConfigToServer extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel2.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Database :");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 260, -1, -1));
 
-        jLabel5.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Password :");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 220, -1, -1));
 
-        jLabel4.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Login :");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, -1, -1));
 
-        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Server :");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 100, -1, -1));
 
-        jLabel3.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Port  :");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 140, 40, -1));
 
-        btCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/butcancel.png"))); // NOI18N
+        btCancel.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        btCancel.setForeground(new java.awt.Color(255, 255, 255));
+        btCancel.setText("CANCEL");
         btCancel.setBorderPainted(false);
         btCancel.setContentAreaFilled(false);
         btCancel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -159,9 +161,11 @@ public class ConfigToServer extends javax.swing.JFrame {
                 btCancelActionPerformed(evt);
             }
         });
-        getContentPane().add(btCancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 325, 150, 40));
+        getContentPane().add(btCancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 330, 170, 40));
 
-        btSave.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save.png"))); // NOI18N
+        btSave.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        btSave.setForeground(new java.awt.Color(255, 255, 255));
+        btSave.setText("SAVE");
         btSave.setBorderPainted(false);
         btSave.setContentAreaFilled(false);
         btSave.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -176,7 +180,7 @@ public class ConfigToServer extends javax.swing.JFrame {
                 btSaveActionPerformed(evt);
             }
         });
-        getContentPane().add(btSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 150, 50));
+        getContentPane().add(btSave, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, 150, 60));
 
         txtport.setText("1433");
         txtport.addActionListener(new java.awt.event.ActionListener() {
@@ -199,7 +203,7 @@ public class ConfigToServer extends javax.swing.JFrame {
         });
         getContentPane().add(txtlogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 180, 180, -1));
 
-        txtpassword.setText("123456");
+        txtpassword.setText("1234567");
         txtpassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtpasswordActionPerformed(evt);
@@ -237,6 +241,7 @@ public class ConfigToServer extends javax.swing.JFrame {
         getContentPane().add(lbletter, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 140, 130, 20));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Help");
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
@@ -252,10 +257,10 @@ public class ConfigToServer extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 10, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
 
         bg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/config.png"))); // NOI18N
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/connnect.jpg"))); // NOI18N
         getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 400));
 
         pack();

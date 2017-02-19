@@ -66,47 +66,47 @@ public class UsersHelp extends javax.swing.JDialog {
 
         lbwithdraw.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbwithdraw.setText("WITHDRAWAL");
-        getContentPane().add(lbwithdraw, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, 680, -1));
+        getContentPane().add(lbwithdraw, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 300, 680, -1));
 
         jLabel2.setFont(new java.awt.Font("Calibri", 2, 36)); // NOI18N
         jLabel2.setText("IT IS OUR PLEASURE TO HELP AND SERVE YOU.");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 180, -1, -1));
 
         lbtransfer.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbtransfer.setText("TRANSFERS");
-        getContentPane().add(lbtransfer, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 190, 700, -1));
+        getContentPane().add(lbtransfer, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 260, 700, -1));
 
         lbbalance.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbbalance.setText("BALANCE INQUIRY");
-        getContentPane().add(lbbalance, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 300, 820, -1));
+        getContentPane().add(lbbalance, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 380, 820, -1));
 
         lbpinchange.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbpinchange.setText("PIN CHANGE");
-        getContentPane().add(lbpinchange, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 330, 730, -1));
+        getContentPane().add(lbpinchange, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 420, 730, -1));
 
         lbactivities.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbactivities.setText("RECENT ACTIVITIES");
-        getContentPane().add(lbactivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 270, 790, -1));
+        getContentPane().add(lbactivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, 790, -1));
 
         lbaboutus.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbaboutus.setText("ABOUT US");
-        getContentPane().add(lbaboutus, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 370, 890, -1));
+        getContentPane().add(lbaboutus, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 460, 890, -1));
 
         lblogout.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lblogout.setText("LOG OUT");
-        getContentPane().add(lblogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 410, 730, -1));
+        getContentPane().add(lblogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 500, 730, -1));
 
         lbdeposit.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbdeposit.setText("deposit");
-        getContentPane().add(lbdeposit, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 440, 900, 90));
+        getContentPane().add(lbdeposit, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 530, 900, 90));
 
         lbcontact.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         lbcontact.setText("If you have other questions, please contact us through our websites, agendas, or emails addresses. Thank you!");
-        getContentPane().add(lbcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 530, 880, 50));
+        getContentPane().add(lbcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 620, 880, 50));
 
         jLabel4.setFont(new java.awt.Font("Calibri", 2, 18)); // NOI18N
         jLabel4.setText("Established by Team 2 ACCP1207B-CNC APTECH");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 620, -1, -1));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 690, -1, -1));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cancel.png"))); // NOI18N
         jButton1.setBorderPainted(false);
@@ -124,7 +124,7 @@ public class UsersHelp extends javax.swing.JDialog {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 600, 280, 80));
 
         bg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/help  background.png"))); // NOI18N
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
         getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(-48, 0, 1120, -1));
 
         pack();

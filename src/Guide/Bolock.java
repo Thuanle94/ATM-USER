@@ -64,7 +64,7 @@ public class Bolock extends javax.swing.JDialog {
         jLabel3.setText("Sorry! Your account has been blocked! Please contact to our customers service department!");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 950, 40));
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/logout.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/logout.jpg"))); // NOI18N
         jButton1.setBorderPainted(false);
         jButton1.setContentAreaFilled(false);
         jButton1.setDefaultCapable(false);
@@ -78,10 +78,10 @@ public class Bolock extends javax.swing.JDialog {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 570, 280, 80));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 580, 150, 150));
 
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgpanel.png"))); // NOI18N
-        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
+        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 1030, 760));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

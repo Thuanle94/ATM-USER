@@ -169,7 +169,7 @@ public class ChangePIN extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        butcancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cancel.png"))); // NOI18N
+        butcancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/CANCEL.jpg"))); // NOI18N
         butcancel.setBorderPainted(false);
         butcancel.setContentAreaFilled(false);
         butcancel.setDefaultCapable(false);
@@ -189,9 +189,9 @@ public class ChangePIN extends javax.swing.JDialog {
                 butcancelMouseEntered(evt);
             }
         });
-        getContentPane().add(butcancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 620, 280, 80));
+        getContentPane().add(butcancel, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 620, 270, 80));
 
-        butchange.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/changePIN.png"))); // NOI18N
+        butchange.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/CHANGE.jpg"))); // NOI18N
         butchange.setBorderPainted(false);
         butchange.setContentAreaFilled(false);
         butchange.setDefaultCapable(false);
@@ -211,7 +211,7 @@ public class ChangePIN extends javax.swing.JDialog {
                 butchangeMouseEntered(evt);
             }
         });
-        getContentPane().add(butchange, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 610, 280, 80));
+        getContentPane().add(butchange, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 630, 280, 80));
 
         txtpinold.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         txtpinold.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -227,7 +227,7 @@ public class ChangePIN extends javax.swing.JDialog {
                 txtpinoldKeyTyped(evt);
             }
         });
-        getContentPane().add(txtpinold, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 230, 250, 40));
+        getContentPane().add(txtpinold, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, 250, 40));
 
         txtnewpin.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         txtnewpin.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -243,15 +243,15 @@ public class ChangePIN extends javax.swing.JDialog {
                 txtnewpinKeyTyped(evt);
             }
         });
-        getContentPane().add(txtnewpin, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, 250, 40));
+        getContentPane().add(txtnewpin, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 270, 250, 40));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setText("Old PIN :");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 210, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel2.setText("New PIN :");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 280, -1, -1));
 
         txtconfirm.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         txtconfirm.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -267,11 +267,11 @@ public class ChangePIN extends javax.swing.JDialog {
                 txtconfirmKeyTyped(evt);
             }
         });
-        getContentPane().add(txtconfirm, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 470, 250, 40));
+        getContentPane().add(txtconfirm, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 360, 250, 40));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel3.setText("Confirm PIN :");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 450, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 360, -1, -1));
 
         lb1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         lb1.setForeground(new java.awt.Color(204, 0, 0));
@@ -289,7 +289,7 @@ public class ChangePIN extends javax.swing.JDialog {
         lb4.setForeground(new java.awt.Color(204, 0, 0));
         getContentPane().add(lb4, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 150, 370, 30));
 
-        but1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/1.png"))); // NOI18N
+        but1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 1.jpg"))); // NOI18N
         but1.setBorderPainted(false);
         but1.setContentAreaFilled(false);
         but1.setDefaultCapable(false);
@@ -313,7 +313,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 200, 80, 80));
 
-        but2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/2.png"))); // NOI18N
+        but2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 2-2.jpg"))); // NOI18N
         but2.setBorderPainted(false);
         but2.setContentAreaFilled(false);
         but2.setDefaultCapable(false);
@@ -337,7 +337,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 200, 80, 80));
 
-        but3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/3.png"))); // NOI18N
+        but3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 3.jpg"))); // NOI18N
         but3.setBorderPainted(false);
         but3.setContentAreaFilled(false);
         but3.setDefaultCapable(false);
@@ -361,7 +361,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but3, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 200, 80, 80));
 
-        but6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/6.png"))); // NOI18N
+        but6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 6.jpg"))); // NOI18N
         but6.setBorderPainted(false);
         but6.setContentAreaFilled(false);
         but6.setDefaultCapable(false);
@@ -385,7 +385,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but6, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 290, 80, 80));
 
-        but5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/5.png"))); // NOI18N
+        but5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 5.jpg"))); // NOI18N
         but5.setBorderPainted(false);
         but5.setContentAreaFilled(false);
         but5.setDefaultCapable(false);
@@ -409,7 +409,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but5, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 290, 80, 80));
 
-        but4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/4.png"))); // NOI18N
+        but4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 4.jpg"))); // NOI18N
         but4.setBorderPainted(false);
         but4.setContentAreaFilled(false);
         but4.setDefaultCapable(false);
@@ -433,7 +433,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 290, 80, 80));
 
-        but7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/7.png"))); // NOI18N
+        but7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 7.jpg"))); // NOI18N
         but7.setBorderPainted(false);
         but7.setContentAreaFilled(false);
         but7.setDefaultCapable(false);
@@ -457,7 +457,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but7, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 380, 80, 80));
 
-        but8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/8.png"))); // NOI18N
+        but8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 8.jpg"))); // NOI18N
         but8.setBorderPainted(false);
         but8.setContentAreaFilled(false);
         but8.setDefaultCapable(false);
@@ -481,7 +481,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but8, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 380, 80, 80));
 
-        but9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/9.png"))); // NOI18N
+        but9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 9.jpg"))); // NOI18N
         but9.setBorderPainted(false);
         but9.setContentAreaFilled(false);
         but9.setDefaultCapable(false);
@@ -505,7 +505,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but9, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 380, 80, 80));
 
-        but0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/0.png"))); // NOI18N
+        but0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/number 0.jpg"))); // NOI18N
         but0.setToolTipText("");
         but0.setBorderPainted(false);
         but0.setContentAreaFilled(false);
@@ -530,7 +530,7 @@ public class ChangePIN extends javax.swing.JDialog {
         });
         getContentPane().add(but0, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 470, 80, 80));
 
-        backspace.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/backspace.png"))); // NOI18N
+        backspace.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/backspace2.jpg"))); // NOI18N
         backspace.setBorderPainted(false);
         backspace.setContentAreaFilled(false);
         backspace.setDefaultCapable(false);
@@ -1085,8 +1085,8 @@ public class ChangePIN extends javax.swing.JDialog {
         getContentPane().add(backspaceam, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 470, 170, 80));
 
         bg.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgpanel.png"))); // NOI18N
-        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1024, 734));
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
+        getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 1024, 734));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

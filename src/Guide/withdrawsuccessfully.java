@@ -83,7 +83,7 @@ public class withdrawsuccessfully extends javax.swing.JDialog {
 
         jLabel2.setFont(new java.awt.Font("Calibri", 0, 30)); // NOI18N
         jLabel2.setText("You have withdrawn your money. Here is the transaction details:");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 180, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, -1, -1));
 
         lbbalance.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
         lbbalance.setText("Your balance");
@@ -93,7 +93,7 @@ public class withdrawsuccessfully extends javax.swing.JDialog {
         jLabel3.setText("Your money withdraw");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 310, -1, -1));
 
-        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgpanel.png"))); // NOI18N
+        bg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/bgbanner-2.jpg"))); // NOI18N
         getContentPane().add(bg, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
